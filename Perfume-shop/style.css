@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Montserrat:wght@300&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    font-size: 14px;
+    margin: 0;
+}
+.main-page {
+    display: flex;
+}
+.main-pic{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 38%;
+    height: 100vh;
+    background-size: cover;
+    border-radius: 0.2em;
+}
+div{
+    margin-top: 5em;
+    line-height: 2em;
+}
+h5{
+    color: gray;
+    margin-left: 5em;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+#perfume-name{
+    font-weight: 700;
+    font-family: 'Fraunces',serif;
+    width: 7em;
+    font-size: 30px;
+    margin-left: 2.5em;
+}
+#inf{
+    margin-left: 3em;
+    width: 14em;
+    font-size: 25px;
+    line-height: 1.5em;
+    color: gray;
+}
+h4{
+    margin-left: 2.5em;
+    font-size: 35px;
+    font-family: 'Fraunces',serif;
+    color: rgba(64, 130, 81, 0.842);
+    font-weight: 700;
+    display: flex;
+}
+del{
+    margin-left: 2em;
+    color: gray;
+    font-size: 12px;
+    margin-top: 1em;
+}
+button{
+    padding: 0.5em;
+    width: 19em;
+    text-align: center;
+    color: white;
+    background-color:rgba(64, 130, 81, 0.842);
+    border-radius: 0.5em;
+    border-style: hidden;
+    height: 3.5em;
+    margin-left: 4em;
+}
+button .cart{
+    width: 1.5em;
+    height: 1.5em;
+}
+@media(max-width:375px) {
+
+    body{
+        background-color: rgb(247, 223, 236);
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .main-page {
+        display: grid;
+    }
+    .main-pic{
+    background-image: url('image-product-mobile.jpg');
+    margin-top: 2em;
+    width:90%;
+    height: 50vh;
+    margin-right:5em ;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    }
+    div{
+        background-color: white;
+        margin: 0;
+        margin-right: 2em;
+        height: fit-content;
+        border-bottom-left-radius: 1em;
+        border-bottom-right-radius: 1em;
+        line-height: 0.5;
+    }
+    h5{
+        margin-left: 2.5em;
+        text-transform: uppercase;
+        font-size: 17px;
+    }
+    #perfume-name{
+        font-weight: 700;
+        font-family: 'Fraunces',serif;
+        width: 10em;
+        font-size: 40px;
+        line-height: 1em;
+        margin-left: 1em;
+    }
+    #inf{
+        margin-left: 3em;
+        width:19.9em;
+        font-size: 18px;
+        line-height: 1.5em;
+        color: gray;
+    }
+    h4{
+        margin-left: 2em;
+        font-size: 35px;
+        font-family: 'Fraunces',serif;
+        color: rgba(64, 130, 81, 0.842);
+        font-weight: 700;
+        display: flex;
+    }
+    del{
+        margin-left: 2em;
+        color: gray;
+        font-size: 12px;
+        margin-top: 1em;
+    }
+    #btn{
+        padding: 0.5em;
+        width: 18em;
+        text-align: left;
+        padding-top: 1em;
+        color: white;
+        background-color:rgba(64, 130, 81, 0.842);
+        border-radius: 0.5em;
+        border-style: hidden;
+        height: 3em;
+        margin-left: 2em;
+        display: flex;
+    }
+    button .cart{
+        width: 1.5em;
+        height: 1.5em;
+        padding-left: 4em;
+        padding-right: 1em;
+    }
+}
+
